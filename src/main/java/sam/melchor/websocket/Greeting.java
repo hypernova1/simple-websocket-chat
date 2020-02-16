@@ -5,10 +5,12 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-@Getter @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-public class HelloMessage {
-    private String name;
+@Getter @Setter
+public class Greeting {
+
+    private String content;
+
 
 }
