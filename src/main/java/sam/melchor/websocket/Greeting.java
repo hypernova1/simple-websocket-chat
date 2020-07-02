@@ -9,8 +9,5 @@ import lombok.Setter;
 @AllArgsConstructor
 @Getter @Setter
 public class Greeting {
-
     private String content;
-
-
 }
