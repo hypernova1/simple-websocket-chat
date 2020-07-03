@@ -3,11 +3,11 @@ package sam.melchor.websocket;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
-import lombok.Setter;
 
-@Getter @Setter
-@NoArgsConstructor
+@Getter
 @AllArgsConstructor
-public class HelloMessage {
+@NoArgsConstructor
+public class ChatRoom {
+    private String id;
     private String name;
 }
